@@ -64,5 +64,5 @@ jobs:
       - name: Deploy
         run: ./scripts/deploy.sh
 
-      -name: Delete
+      - name: Delete
         run: ./scripts/delete.sh
